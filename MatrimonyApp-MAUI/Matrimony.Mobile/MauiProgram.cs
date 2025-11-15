@@ -1,4 +1,3 @@
-using CommunityToolkit.Maui;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Maui.Networking;
@@ -11,8 +10,7 @@ public static class MauiProgram
     {
         var builder = MauiApp.CreateBuilder();
         builder
-            .UseMauiApp<App>()
-            .UseMauiCommunityToolkit();
+            .UseMauiApp<App>();
 
         builder.Services.AddSingleton<IConnectivity>(_ => Connectivity.Current);
         builder.Services.AddSingleton<AppShell>();

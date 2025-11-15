@@ -24,9 +24,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CommunityToolkit.Diagnostics" Version="*" />
-    <PackageReference Include="CommunityToolkit.Maui" Version="*" />
-    <PackageReference Include="CommunityToolkit.Mvvm" Version="*" />
     <PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.0-*" />
     <PackageReference Include="Microsoft.Extensions.Http" Version="10.0.0-*" />
     <PackageReference Include="Refit.HttpClientFactory" Version="*" />
